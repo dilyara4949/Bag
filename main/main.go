@@ -1,12 +1,10 @@
 package main
 
 import (
-	"github.com/dilyara4949/goItems/item"
-	"goBag/Bag"
+	"github.com/dilyara4949/Item/item"
+	"github.com/dilyara4949/Bag/bag"
 	"fmt"
 )
-
-// bag with list of items, own characteristics
 
 func main() {
 	i1:=new(item.Item)
@@ -14,7 +12,7 @@ func main() {
 	i1.GetInfo()
 	fmt.Print("\n")
 
-	b1 := new(Bag.Bag)
+	b1 := new(bag.Bag)
 	b1.Init("shopper", "balck", 5000)
 	b1.GetInfo()
 
